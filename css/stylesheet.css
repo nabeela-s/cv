@@ -1,0 +1,61 @@
+body {
+    background-color: #F1EEE9;
+    max-width: 80%;
+    align-self: center;
+    padding: 20px;
+    font-family: sans-serif;
+
+}
+
+hr {
+    border-style: none;
+    border-top: 5px dotted #73777B;
+    width: 5%;
+    height: 0px;
+}
+
+h1,
+h3 {
+    color: #EC994B;
+
+}
+
+h1 {
+    color: #eb8a30;
+    font-size: calc(50px);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#education,
+#skills {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#education td,
+#skills td,
+#education th,
+#skills th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#education tr:nth-child(even),
+#skills tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#education tr:hover,
+#skills tr:hover {
+    background-color: #ddd;
+}
+
+#education th,
+#skills th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #15133C;
+    color: white;
+}

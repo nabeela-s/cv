@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+
+<body">
+    <h1>My Contact</h1>
+    <h3>My Adress</h3>
+    <p>Haripur, Pakistan</p>
+    <h3>My Phone #</h3>
+    <p>+92-324-51 83 776</p>
+    <h3>My Email</h3>
+    <p>nabeela.j.shaheen@gmail.com</p>
+
+    <h3>Write to me</h3>
+    <form action="mailto:nabeela.j.shaheen@gmail.com" method="post" class="" enctype="text/plain">
+        <div>
+            <label for="name">Enter your Name</label>
+            <input type="text" name="name" id="name"> 
+        </div>
+        <div>
+            <label for="email">Enter your email address</label>
+            <input type="email" name="email" id="email"> 
+        </div>
+        <div>
+            <label for="checkbox">Do you want to join our letter group</label>
+            <input type="checkbox" name="checkbox" id="checkbox"> <br>
+            <label for="message">Your message</label><br>  
+            <textarea name="message" id="message" cols="30" rows="10"></textarea> <br>
+            <input type="submit" name="submit">
+        </div>
+    </form>
+</body>
+</html>
